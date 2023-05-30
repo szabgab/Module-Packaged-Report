@@ -1,0 +1,6 @@
+Build
+MYMETA.*
+META.*
+_build/
+blib/
+Module-Packaged-Report-*
