@@ -1,0 +1,17 @@
+Build.PL
+CHANGES
+MANIFEST			This list of files
+README
+Makefile.PL
+META.yml
+schema.sql
+
+bin/create_package_report.pl
+
+lib/Module/Packaged/Report.pm
+lib/Module/Packaged/Collect.pm
+
+t/02-collect.t
+t/03-load.t
+
+t/files/02packages.details.txt.gz

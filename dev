@@ -1,0 +1,2 @@
+rm -rf report/
+perl -Ilib bin/create_package_report.pl $@

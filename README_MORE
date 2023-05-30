@@ -1,0 +1,9 @@
+
+perl -MData::Dumper -MCompress::Zlib -e'use Storable "thaw"; open F, "module_packaged.gz"; $/=undef; $data=<F>; $x = thaw(uncompress($data)); print Dumper $x' > d.pl
+
+
+table border="1"
+
+sortable tables
+
+Freezing Panels  floating headers
